@@ -59,7 +59,7 @@ a.button:hover{
 /*select any element with the class of sharebutton*/
 .sharebutton{
 	background-color: #f2f2f2;
-	padding:7px 15px;
+	padding:3px 7px;
 	cursor:default;
 	position:relative;
 	top:-3px;
@@ -194,4 +194,42 @@ a.button:hover{
 	letter-spacing:0.1;
 	font-size:14px;
 }
+/*starting of the responsive design*/
+@media (max-width:430px){
+	.profileImg{
+		display:none;
+	}
+}
+@media(max-width:380px){
+	.sharebutton{
+		display:none;
+	}
+}
+@media(max-width:307px)
+{
+	.fa{display:none;
 
+	}
+}
+@media(max-width:528px){
+	.right li a{
+		display:none;
+	}
+}
+@media(max-width:435px){
+	.searchButtons button {
+		margin:7px auto;
+		padding:10px;
+		font-weight:none;
+		font-size:10px;
+	}
+}
+
+
+@media(max-width:435px){
+	.searchbox input{
+		width:80%;
+		font-size:10px;
+		margin:7px auto;
+	}
+}
